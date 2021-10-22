@@ -1,0 +1,33 @@
+{
+  "type": "payment_order",
+  "data": {
+    "result": "true",
+    "view": { "type": "card" },
+    "payment": {
+      "id": "kunfO8cWx",
+      "description": "Descripcion de Link de Pago",
+      "operation": "lost",
+      "status": "lost",
+      "total": "100",
+      "currency": "lost",
+      "riskAnalysis": "lost",
+      "created": "2021-10-22T13:54:10.858Z",
+      "updated": "2021-10-22T13:54:11.023Z",
+      "reference": "Eme_22_10_13",
+      "source": "lost"
+    },
+    "entity": { "name": "Demo", "uid": "H1rJEXyr" },
+    "customer": {
+      "email": "test@gmail.com",
+      "name": "Demo",
+      "identification": "12123123",
+      "phone": "341758965"
+    },
+    "user": { "name": "Demo", "email": "test@gmail.com" },
+    "source": {
+      "name": "Visa Débito",
+      "type": "card",
+      "reference": "visa.debit"
+    }
+  }
+}
