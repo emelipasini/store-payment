@@ -1,0 +1,25 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Store Payment</title>
+    </head>
+    <body>
+        <%- include("partials/header") %>
+        <main>
+            <h1>Realizar una compra</h1>
+            <form action="/buy" method="POST">
+                <div>
+                    <label for="total">Total</label>
+                    <input type="number" name="total" min="1" id="total" />
+                </div>
+                <div>
+                    <label for="description">Descripcion</label>
+                    <input type="text" name="description" id="description" />
+                </div>
+                <button type="submit">Pagar</button>
+            </form>
+        </main>
+    </body>
+</html>

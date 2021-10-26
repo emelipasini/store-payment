@@ -9,3 +9,6 @@ default.json
 
 # generate output
 dist
+
+# Formatter
+.prettierrc
