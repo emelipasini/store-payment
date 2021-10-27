@@ -6,7 +6,7 @@ import salesDB from "../../database/sales";
 
 export async function webhook(req: Request, res: Response) {
     try {
-        const request = req.query as any;
+        const request = req.body as any;
 
         const reference = request.data.payment.reference;
         const status = request.data.payment.status.text;
